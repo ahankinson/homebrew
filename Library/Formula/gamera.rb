@@ -1,9 +1,9 @@
 require 'formula'
 
 class Gamera < Formula
-  url 'http://surfnet.dl.sourceforge.net/project/gamera/gamera/gamera-3.3.0/gamera-3.3.0.tar.gz'
+  url 'http://surfnet.dl.sourceforge.net/project/gamera/gamera/gamera-3.3.2/gamera-3.3.2.tar.gz'
   homepage 'http://gamera.informatik.hsnr.de/'
-  md5 'd1f46b093f3abe5709ad22150f432aa4'
+  md5 '814dbc66535ef3111f4bd376c9b44d63'
   
   def caveats; <<-EOS.undent
     You should build according to the instructions at https://gist.github.com/985173.
