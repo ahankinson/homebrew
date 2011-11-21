@@ -18,10 +18,10 @@ class Gamera < Formula
   end
   # depends_on 'cmake'
   
-  def patches
+  #def patches
     # fixes gamera to install with wx 2.9, at least until they get it sorted out.
-    "https://gist.github.com/raw/985185/97cafdfbc45852a6e6b67f3300ba7e37406e6438/gistfile1.txt"
-  end
+  #  "https://gist.github.com/raw/985185/97cafdfbc45852a6e6b67f3300ba7e37406e6438/gistfile1.txt"
+  #end
   
   def install
     system "python", "setup.py", "build"
